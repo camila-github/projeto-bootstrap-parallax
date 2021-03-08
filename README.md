@@ -1,36 +1,51 @@
 ## Projeto: Criação de uma pagina estatica responsivo, utilizando Bootstrap + Parallax
-### Publicado uma pagina estatica, e foi utilizado as ferramentas abaixo:
 
-- BOOTSTRAP
+
+O intuito do projeto foi criar uma pagina estatica, utilizando BootStrap + Parallax para sobreposição de imagens ao utilizar o scroll. 
+
+## FERRAMENTAS UTILIZADAS:
+
+#### BOOTSTRAP
 Utilizado o link CDN que consta no site do bootstrap.
-```https://getbootstrap.com/```
+```
+https://getbootstrap.com/
+```
 
-- JQUERY 
+#### JQUERY 
 Utilizado Jquery para uso do animate Scroll.
 Foi utilizado o link CDN que consta no site do Jquery CDN:
-```https://code.jquery.com/```
+```
+https://code.jquery.com/
+```
 
-- FONT AWESOME 
+#### FONT AWESOME 
 Biblioteca de icones.
 Nessario fazer um cadastro, para obter um link para utilizar a biblioteca e adicionar o link no projeto.
-```https://fontawesome.com/```
+```
+https://fontawesome.com/
+```
 
-- PROGRESS BAR JS
+#### PROGRESS BAR JS
 Utilizado ProgressBar.js, para criar barras de progresso responsivas circular.
 Foi utilizado o arquivo progressbar.min.js do link abaixo, que fica na pasta dist.  
-```https://github.com/kimmobrunfeldt/progressbar.js/tree/master/dist```
+```
+https://github.com/kimmobrunfeldt/progressbar.js/tree/master/dist
+```
 
-- PARALLAX  
+#### PARALLAX  
 Utilizado para sobreposição de imagens ao utilizar o scroll.
 Utilizado o link CDN que consta no site abaixo.
-```https://pixelcog.github.io/parallax.js/```
+```
+https://pixelcog.github.io/parallax.js/
+```
 
-- GOOGLE FONTS 
+#### GOOGLE FONTS 
 Utilizado a opção: roboto. Foi escolhido as fontes: Light 300, Regular 400, Bold 700.
-```https://fonts.google.com/```
+```
+https://fonts.google.com/
+```
 
-
-### Conceitos utilizados
+## CONCEITOS UTILIZADOS
 
 - Criação de estrutura semântica no Html
 - Criaçao de Barra de navegação (Header e Navbar)
@@ -46,6 +61,6 @@ Utilizado a opção: roboto. Foi escolhido as fontes: Light 300, Regular 400, Bo
 - Uso do animate()Scroll do Jquery, que é para o menu acessar as sessões da pagina.
 
 
-### Site publicado no link:
+## SITE PUBLICADO NO LINK:
 https://camila-github.github.io/projeto-bootstrap-parallax/index.html
 
