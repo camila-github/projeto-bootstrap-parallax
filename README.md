@@ -3,7 +3,7 @@
 
 O intuito do projeto foi criar uma pagina estatica, utilizando BootStrap + Parallax para sobreposição de imagens ao utilizar o scroll. 
 
-## FERRAMENTAS UTILIZADAS:
+### FERRAMENTAS UTILIZADAS:
 
 #### BOOTSTRAP
 Utilizado o link CDN que consta no site do bootstrap.
@@ -45,7 +45,7 @@ Utilizado a opção: roboto. Foi escolhido as fontes: Light 300, Regular 400, Bo
 https://fonts.google.com/
 ```
 
-## CONCEITOS UTILIZADOS
+### CONCEITOS UTILIZADOS
 
 - Criação de estrutura semântica no Html
 - Criaçao de Barra de navegação (Header e Navbar)
@@ -61,6 +61,6 @@ https://fonts.google.com/
 - Uso do animate()Scroll do Jquery, que é para o menu acessar as sessões da pagina.
 
 
-## SITE PUBLICADO NO LINK:
+### SITE PUBLICADO NO LINK:
 https://camila-github.github.io/projeto-bootstrap-parallax/index.html
 
