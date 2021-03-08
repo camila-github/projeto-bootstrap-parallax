@@ -1,10 +1,9 @@
 :root {
-  /*--primeiraCorPadrao:#3EC1D5;*/
-  --primeiraCorPadrao:#be1e2b;
-  --segundaCorPadrao: #FFF;
-  --terceiraCorPadrao: #f5edede8;
-  --quartaCorPadrao: #444;
-  --borderRadiusPadrao: 6px;
+  --firstStandardColor:#be1e2b;
+  --secondStandardColor: #FFF;
+  --thirdStandardColor: #f5edede8;
+  --fourthStandardColor: #444;
+  --borderRadiusStandard: 6px;  
 }
 
 
@@ -22,13 +21,13 @@ body {
 }
 
 p, li {
-  color: var(--quartaCorPadrao);
+  color: var(--fourthStandardColor);
   font-size: 14px;
 }
 
 /* Barra de navegação */
 header, .navbar {
-  background-color: var(--quartaCorPadrao);
+  background-color: var(--fourthStandardColor);
 }
 
 #nav-container {
@@ -43,15 +42,15 @@ header, .navbar {
 
 .navbar-brand {
   padding: 0;
-  color: var(--segundaCorPadrao);
+  color: var(--secondStandardColor);
 }
 
 .navbar-brand:hover {
-  color: var(--segundaCorPadrao);
+  color: var(--secondStandardColor);
 }
 
 #navbar-links a {
-  color: var(--segundaCorPadrao);
+  color: var(--secondStandardColor);
 }
 
 .navbar-expand-lg .navbar-nav .nav-link {
@@ -59,7 +58,7 @@ header, .navbar {
 }
 
 .nav-item.active {
-  border-bottom: 3px solid var(--segundaCorPadrao);
+  border-bottom: 3px solid var(--secondStandardColor);
 }
 
 /* Slider */
@@ -85,12 +84,12 @@ header, .navbar {
   font-size: 22px;
   font-weight: 300;
   margin-bottom: 100px;
-  color: var(--segundaCorPadrao);
+  color: var(--secondStandardColor);
 }
 
 .main-btn {
-  background-color: var(--primeiraCorPadrao);
-  color: var(--segundaCorPadrao);
+  background-color: var(--firstStandardColor);
+  color: var(--secondStandardColor);
   text-transform: uppercase;
   width: 200px;
   height: 60px;
@@ -102,23 +101,23 @@ header, .navbar {
 
 .main-btn:hover {
   text-decoration: none;
-  color: var(--segundaCorPadrao);
+  color: var(--secondStandardColor);
   background-color: transparent;
-  border-color: var(--primeiraCorPadrao);
+  border-color: var(--firstStandardColor);
 }
 
 .carousel-indicators .active {
-  background-color: var(--primeiraCorPadrao);
+  background-color: var(--firstStandardColor);
 }
 
 /* Sobre a empresa */
 
 #about-area {
-  background-color: var(--terceiraCorPadrao);
+  background-color: var(--thirdStandardColor);
 }
 
 .main-title {
-  color: var(--quartaCorPadrao);
+  color: var(--fourthStandardColor);
   margin: 0 0 65px 0;
   font-size: 40px;
   text-align: center;
@@ -126,7 +125,7 @@ header, .navbar {
 
 .main-title::after {
   content: "";
-  border-top: 2px solid var(--quartaCorPadrao);
+  border-top: 2px solid var(--fourthStandardColor);
   width: 15%;
   position: absolute;
   top: 60px;
@@ -135,7 +134,7 @@ header, .navbar {
 
 .about-title {
   font-size: 17px;
-  color: var(--quartaCorPadrao);
+  color: var(--fourthStandardColor);
   text-transform: uppercase;
   font-weight: bold;
 }
@@ -150,7 +149,7 @@ header, .navbar {
 }
 
 #about-list i {
-  color: var(--primeiraCorPadrao);
+  color: var(--firstStandardColor);
   margin-right: 15px;
 }
 
@@ -168,7 +167,7 @@ header, .navbar {
 .service-box i {
   font-size: 36px;
   margin-bottom: 20px;
-  color: var(--quartaCorPadrao);
+  color: var(--fourthStandardColor);
 }
 
 .service-box h4 {
@@ -177,7 +176,7 @@ header, .navbar {
 }
 
 .service-box:hover > i, .service-box:hover > h4 {
-  color: var(--primeiraCorPadrao);
+  color: var(--firstStandardColor);
 }
 
 /* Dados */
@@ -192,7 +191,7 @@ header, .navbar {
 }
 
 #data-area p {
-  color: var(--segundaCorPadrao);
+  color: var(--secondStandardColor);
   text-align: center;
   font-size: 26px;
   margin-top: 20px;
@@ -204,7 +203,7 @@ header, .navbar {
   text-align: center;
 }
 .card-img-top{
-  border-radius: var(--borderRadiusPadrao);
+  border-radius: var(--borderRadiusStandard);
 }
 
 /* Trabalhe conosco */
@@ -229,7 +228,7 @@ header, .navbar {
 }
 
 #pattern-img h4, #pattern-img p {
-  color: var(--segundaCorPadrao);
+  color: var(--secondStandardColor);
 }
 
 #pattern-img h4 {
@@ -250,12 +249,12 @@ header, .navbar {
   margin-right: auto;
   margin-top: 30px;
   background-color: transparent;
-  border-color: var(--segundaCorPadrao);
+  border-color: var(--secondStandardColor);
 }
 
 #apply-btn:hover {
-  border-color: var(--primeiraCorPadrao);
-  background-color: var(--primeiraCorPadrao);
+  border-color: var(--firstStandardColor);
+  background-color: var(--firstStandardColor);
 }
 
 /* Portfólio */
@@ -270,8 +269,8 @@ header, .navbar {
 }
 
 #portfolio-area .filter-btn {
-  color: var(--quartaCorPadrao);
-  border: 1px solid var(--quartaCorPadrao);
+  color: var(--fourthStandardColor);
+  border: 1px solid var(--fourthStandardColor);
   background-color: transparent;
   text-transform: none;
   margin: 0 15px;
@@ -283,16 +282,16 @@ header, .navbar {
 }
 
 #portfolio-area .filter-btn.active, #portfolio-area .filter-btn:hover {
-  color: var(--segundaCorPadrao);
-  border: 1px solid var(--primeiraCorPadrao);
-  background-color: var(--primeiraCorPadrao);
+  color: var(--secondStandardColor);
+  border: 1px solid var(--firstStandardColor);
+  background-color: var(--firstStandardColor);
 }
 
 /* News Letter */
 
 #news-area {
   text-align: center;
-  background-color: var(--terceiraCorPadrao);
+  background-color: var(--thirdStandardColor);
 }
 
 #news-area p {
@@ -306,7 +305,7 @@ header, .navbar {
   border-top-left-radius: 20px; 
   /*border-bottom-left-radius : Aplica borda curvada apenas do lado esquerdo parte inferior (bottom-left), o lado direto (right) nao é aplicado borda*/
   border-bottom-left-radius: 20px;
-  border: 1px solid var(--primeiraCorPadrao);
+  border: 1px solid var(--firstStandardColor);
   /*display: inline - A caixa de texto (input) ficará do lado do botão*/
   display: inline; 
   box-sizing: border-box;
@@ -317,9 +316,9 @@ header, .navbar {
 #news-btn {
   border-top-right-radius: 20px;
   border-bottom-right-radius: 20px;
-  border: 1px solid var(--primeiraCorPadrao);
-  background-color: var(--primeiraCorPadrao);
-  color: var(--segundaCorPadrao);
+  border: 1px solid var(--firstStandardColor);
+  background-color: var(--firstStandardColor);
+  color: var(--secondStandardColor);
   text-transform: uppercase;
   height: 40px;
   padding: 0 30px;
@@ -329,18 +328,18 @@ header, .navbar {
 }
 
 #news-btn:hover {
-  background-color: var(--segundaCorPadrao);
-  color: var(--primeiraCorPadrao);
+  background-color: var(--secondStandardColor);
+  color: var(--firstStandardColor);
 }
 
 .img-fluid {
-  border-radius: var(--borderRadiusPadrao);
+  border-radius: var(--borderRadiusStandard);
 
 }
 /* Call To Action */
 
 #call-area {
-  background-color: var(--primeiraCorPadrao);
+  background-color: var(--firstStandardColor);
   text-transform: uppercase;
 }
 
@@ -354,7 +353,7 @@ header, .navbar {
 }
 
 #call-area p {
-  color: var(--segundaCorPadrao);
+  color: var(--secondStandardColor);
   font-weight: bold;
   font-size: 20px;
   margin-bottom: 0;
@@ -365,8 +364,8 @@ header, .navbar {
 }
 
 #call-area #call-btn {
-  background-color: var(--segundaCorPadrao);
-  color: var(--primeiraCorPadrao);
+  background-color: var(--secondStandardColor);
+  color: var(--firstStandardColor);
   font-weight: bold;
   margin-left: 18px;
   font-size: 16px;
@@ -384,12 +383,12 @@ header, .navbar {
 .contact-box {
   padding-bottom: 50px;
   margin-bottom: 50px;
-  border-bottom: 1px solid var(--primeiraCorPadrao);
+  border-bottom: 1px solid var(--firstStandardColor);
 }
 
 .contact-box i {
-  color: var(--quartaCorPadrao);
-  border: solid 1px var(--quartaCorPadrao);
+  color: var(--fourthStandardColor);
+  border: solid 1px var(--fourthStandardColor);
   border-radius: 50%;
   width: 55px;
   height: 55px;
@@ -404,7 +403,7 @@ header, .navbar {
 
 .contact-tile {
   font-weight: bold;
-  color: var(--primeiraCorPadrao);
+  color: var(--firstStandardColor);
 }
 
 #msg-box p {
@@ -413,7 +412,7 @@ header, .navbar {
 
 #contact-form input[type="text"], #contact-form textarea {
   margin-bottom: 15px;
-  border-radius: var(--borderRadiusPadrao);
+  border-radius: var(--borderRadiusStandard);
 }
 
 #contact-form .main-btn {
@@ -422,13 +421,13 @@ header, .navbar {
 }
 
 #contact-form .main-btn:hover {
-  color: var(--primeiraCorPadrao);
+  color: var(--firstStandardColor);
 }
 
 /* Copy */
 
 #copy-area {
-  background-color: var(--terceiraCorPadrao);
+  background-color: var(--thirdStandardColor);
 }
 
 #copy-area .container {
@@ -442,11 +441,11 @@ header, .navbar {
 
 #copy-area .container a {
   font-weight: bold;
-  color: var(--quartaCorPadrao);
+  color: var(--fourthStandardColor);
 }
 
 #copy-area .container a:hover {
   text-decoration: none;
-  color: var(--primeiraCorPadrao);
+  color: var(--firstStandardColor);
 }
 
