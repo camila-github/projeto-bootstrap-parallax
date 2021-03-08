@@ -20,7 +20,7 @@ https://code.jquery.com/
 
 #### FONT AWESOME 
 Biblioteca de icones.
-Nessario fazer um cadastro, para obter um link para utilizar a biblioteca e adicionar o link no projeto.
+Nessario fazer um cadastro, para obter um link e assim poder adicionar o link no projeto.
 ```
 https://fontawesome.com/
 ```
