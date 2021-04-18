@@ -5,11 +5,11 @@ $( document ).ready(function() {
 
   let circleA = new ProgressBar.Circle(containerA, {
 
-    color: '#65DAF9',
+    color: '#ee4b58',
     strokeWidth: 8,
     duration: 1400,
     from: { color: '#aaa'},
-    to: { color: '#65DAF9'},
+    to: { color: '#ee4b58'},
 
     step: function(state, circle) {
       circle.path.setAttribute('stroke', state.color);
@@ -25,11 +25,11 @@ $( document ).ready(function() {
 
   let circleB = new ProgressBar.Circle(containerB, {
 
-    color: '#65DAF9',
+    color: '#ee4b58',
     strokeWidth: 8,
     duration: 1600,
     from: { color: '#aaa'},
-    to: { color: '#65DAF9'},
+    to: { color: '#ee4b58'},
 
     step: function(state, circle) {
       circle.path.setAttribute('stroke', state.color);
@@ -45,11 +45,11 @@ $( document ).ready(function() {
 
   let circleC = new ProgressBar.Circle(containerC, {
 
-    color: '#65DAF9',
+    color: '#ee4b58',
     strokeWidth: 8,
     duration: 1800,
     from: { color: '#aaa'},
-    to: { color: '#65DAF9'},
+    to: { color: '#ee4b58'},
 
     step: function(state, circle) {
       circle.path.setAttribute('stroke', state.color);
@@ -65,11 +65,11 @@ $( document ).ready(function() {
 
   let circleD = new ProgressBar.Circle(containerD, {
 
-    color: '#65DAF9',
+    color: '#ee4b58',
     strokeWidth: 8,
     duration: 2000,
     from: { color: '#aaa'},
-    to: { color: '#65DAF9'},
+    to: { color: '#ee4b58'},
 
     step: function(state, circle) {
       circle.path.setAttribute('stroke', state.color);
@@ -105,8 +105,8 @@ $( document ).ready(function() {
 
   // setTimeout serve para carregar primeiro as imagens
   setTimeout(function() {
-    $('#data-area').parallax({imageSrc: 'img/cidadeparallax.png'});
-    $('#apply-area').parallax({imageSrc: 'img/pattern.png'});
+    $('#data-area').parallax({imageSrc: 'assets/img/cidadeparallax.png'});
+    $('#apply-area').parallax({imageSrc: 'assets/img/pattern.png'});
   }, 200);
 
   // Filtro portfólio

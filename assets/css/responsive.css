@@ -25,7 +25,7 @@
     }
     /* data */
     .circle-box div {
-        padding: 0 10px;
+        padding: 0 5px;
     }
     #data-area p {
         font-size: 16px;
@@ -81,7 +81,7 @@
     }
     /* about */
     .main-title {
-        font-size: 30px;
+        font-size: 28px;
     }
     #about-area img {
         margin-top: 0;
@@ -111,7 +111,7 @@
     }
     /* news */
     #news-area .main-title {
-        font-size: 24px;
+        font-size: 25px;
     }
     #news-area p {
         font-size: 16px;
